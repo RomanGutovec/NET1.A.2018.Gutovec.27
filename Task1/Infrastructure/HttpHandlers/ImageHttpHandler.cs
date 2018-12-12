@@ -21,7 +21,6 @@ namespace Task1.Infrastructure.HttpHandlers
             var filename = segment.Values["id"];
 
             string appPath = AppDomain.CurrentDomain.BaseDirectory;
-
             string pathToFile = @"Pictures\" + filename + ".jpg";
             string myPath = Path.Combine(appPath, pathToFile);
 
